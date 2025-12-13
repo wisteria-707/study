@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+"waibuzhongduan\startup_stm32f103xb.o"
+"waibuzhongduan\main.o"
+"waibuzhongduan\gpio.o"
+"waibuzhongduan\stm32f1xx_it.o"
+"waibuzhongduan\stm32f1xx_hal_msp.o"
+"waibuzhongduan\stm32f1xx_hal_gpio_ex.o"
+"waibuzhongduan\stm32f1xx_hal.o"
+"waibuzhongduan\stm32f1xx_hal_rcc.o"
+"waibuzhongduan\stm32f1xx_hal_rcc_ex.o"
+"waibuzhongduan\stm32f1xx_hal_gpio.o"
+"waibuzhongduan\stm32f1xx_hal_dma.o"
+"waibuzhongduan\stm32f1xx_hal_cortex.o"
+"waibuzhongduan\stm32f1xx_hal_pwr.o"
+"waibuzhongduan\stm32f1xx_hal_flash.o"
+"waibuzhongduan\stm32f1xx_hal_flash_ex.o"
+"waibuzhongduan\stm32f1xx_hal_exti.o"
+"waibuzhongduan\system_stm32f1xx.o"
+--strict --scatter "waibuzhongduan\waibuzhongduan.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "waibuzhongduan.map" -o waibuzhongduan\waibuzhongduan.axf
