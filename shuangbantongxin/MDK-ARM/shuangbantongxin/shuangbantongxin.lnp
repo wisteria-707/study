@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"shuangbantongxin\startup_stm32f103xb.o"
+"shuangbantongxin\main.o"
+"shuangbantongxin\gpio.o"
+"shuangbantongxin\usart.o"
+"shuangbantongxin\stm32f1xx_it.o"
+"shuangbantongxin\stm32f1xx_hal_msp.o"
+"shuangbantongxin\stm32f1xx_hal_gpio_ex.o"
+"shuangbantongxin\stm32f1xx_hal_uart.o"
+"shuangbantongxin\stm32f1xx_hal.o"
+"shuangbantongxin\stm32f1xx_hal_rcc.o"
+"shuangbantongxin\stm32f1xx_hal_rcc_ex.o"
+"shuangbantongxin\stm32f1xx_hal_gpio.o"
+"shuangbantongxin\stm32f1xx_hal_dma.o"
+"shuangbantongxin\stm32f1xx_hal_cortex.o"
+"shuangbantongxin\stm32f1xx_hal_pwr.o"
+"shuangbantongxin\stm32f1xx_hal_flash.o"
+"shuangbantongxin\stm32f1xx_hal_flash_ex.o"
+"shuangbantongxin\stm32f1xx_hal_exti.o"
+"shuangbantongxin\system_stm32f1xx.o"
+--strict --scatter "shuangbantongxin\shuangbantongxin.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "shuangbantongxin.map" -o shuangbantongxin\shuangbantongxin.axf
