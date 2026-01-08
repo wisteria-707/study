@@ -1,10 +1,10 @@
 can_m3508\can_receive.o: ..\Core\Src\CAN_receive.c
-can_m3508\can_receive.o: ../Core/Inc/CAN_receive.h
-can_m3508\can_receive.o: ../Core/Inc/struct_typedef.h
+can_m3508\can_receive.o: ..\Core\Inc\CAN_receive.h
+can_m3508\can_receive.o: ..\Core\Inc\struct_typedef.h
 can_m3508\can_receive.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-can_m3508\can_receive.o: ../Core/Inc/main.h
+can_m3508\can_receive.o: ..\Core\Inc\main.h
 can_m3508\can_receive.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
-can_m3508\can_receive.o: ../Core/Inc/stm32f4xx_hal_conf.h
+can_m3508\can_receive.o: ..\Core\Inc\stm32f4xx_hal_conf.h
 can_m3508\can_receive.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
 can_m3508\can_receive.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
 can_m3508\can_receive.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h

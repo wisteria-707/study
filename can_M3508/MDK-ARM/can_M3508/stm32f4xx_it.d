@@ -1,7 +1,7 @@
 can_m3508\stm32f4xx_it.o: ../Core/Src/stm32f4xx_it.c
-can_m3508\stm32f4xx_it.o: ../Core/Inc/main.h
+can_m3508\stm32f4xx_it.o: ..\Core\Inc\main.h
 can_m3508\stm32f4xx_it.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
-can_m3508\stm32f4xx_it.o: ../Core/Inc/stm32f4xx_hal_conf.h
+can_m3508\stm32f4xx_it.o: ..\Core\Inc\stm32f4xx_hal_conf.h
 can_m3508\stm32f4xx_it.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
 can_m3508\stm32f4xx_it.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
 can_m3508\stm32f4xx_it.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
@@ -30,4 +30,4 @@ can_m3508\stm32f4xx_it.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flas
 can_m3508\stm32f4xx_it.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 can_m3508\stm32f4xx_it.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
 can_m3508\stm32f4xx_it.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-can_m3508\stm32f4xx_it.o: ../Core/Inc/stm32f4xx_it.h
+can_m3508\stm32f4xx_it.o: ..\Core\Inc\stm32f4xx_it.h

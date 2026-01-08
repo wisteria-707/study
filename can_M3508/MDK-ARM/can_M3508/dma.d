@@ -1,8 +1,8 @@
 can_m3508\dma.o: ../Core/Src/dma.c
-can_m3508\dma.o: ../Core/Inc/dma.h
-can_m3508\dma.o: ../Core/Inc/main.h
+can_m3508\dma.o: ..\Core\Inc\dma.h
+can_m3508\dma.o: ..\Core\Inc\main.h
 can_m3508\dma.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
-can_m3508\dma.o: ../Core/Inc/stm32f4xx_hal_conf.h
+can_m3508\dma.o: ..\Core\Inc\stm32f4xx_hal_conf.h
 can_m3508\dma.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
 can_m3508\dma.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
 can_m3508\dma.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h

@@ -224,6 +224,8 @@ const motor_measure_t *get_pitch_gimbal_motor_measure_point(void)
   * @brief          return the trigger 2006 motor data point
   * @param[in]      none
   * @retval         motor data point
+  
+  
   */
 /**
   * @brief          ���ز������ 2006�������ָ��

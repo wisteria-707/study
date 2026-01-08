@@ -2,6 +2,7 @@
 "can_m3508\startup_stm32f407xx.o"
 "can_m3508\bsp_can.o"
 "can_m3508\can_receive.o"
+"can_m3508\pid.o"
 "can_m3508\main.o"
 "can_m3508\gpio.o"
 "can_m3508\can.o"
@@ -9,6 +10,7 @@
 "can_m3508\usart.o"
 "can_m3508\stm32f4xx_it.o"
 "can_m3508\stm32f4xx_hal_msp.o"
+"can_m3508\sbus.o"
 "can_m3508\stm32f4xx_hal_can.o"
 "can_m3508\stm32f4xx_hal_rcc.o"
 "can_m3508\stm32f4xx_hal_rcc_ex.o"
@@ -25,7 +27,7 @@
 "can_m3508\stm32f4xx_hal_exti.o"
 "can_m3508\stm32f4xx_hal_uart.o"
 "can_m3508\system_stm32f4xx.o"
---strict --scatter "can_M3508\can_M3508.sct"
+--library_type=microlib --strict --scatter "can_M3508\can_M3508.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "can_M3508.map" -o can_M3508\can_M3508.axf
